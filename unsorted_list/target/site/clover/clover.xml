@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1739959138599" clover="4.4.0">
+   <project name="unsorted-list 1.0-SNAPSHOT" timestamp="1739959124894">
+      <metrics coveredelements="113" complexity="35" loc="271" methods="17" classes="5" statements="81" packages="1" coveredconditionals="26" coveredmethods="16" elements="128" ncloc="171" files="4" conditionals="30" coveredstatements="71"/>
+      <package name="datastruct">
+         <metrics coveredelements="113" complexity="35" loc="271" methods="17" classes="5" statements="81" coveredconditionals="26" coveredmethods="16" elements="128" ncloc="171" files="4" conditionals="30" coveredstatements="71"/>
+         <file path="C:\Users\Justine\Documents\Fac\M1_INFO\S2\DevOps\TP\TP3\unsorted_list\src\main\java\datastruct\EmptyListException.java" name="EmptyListException.java">
+            <metrics coveredelements="4" coveredconditionals="0" complexity="2" loc="16" coveredmethods="2" methods="2" elements="4" classes="1" ncloc="10" statements="2" conditionals="0" coveredstatements="2"/>
+            <class name="EmptyListException">
+               <metrics coveredelements="4" coveredconditionals="0" complexity="2" coveredmethods="2" methods="2" elements="4" statements="2" conditionals="0" coveredstatements="2"/>
+            </class>
+            <line complexity="1" visibility="public" signature="EmptyListException()" num="8" count="1" type="method"/>
+            <line num="9" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="EmptyListException(String)" num="13" count="1" type="method"/>
+            <line num="14" count="1" type="stmt"/>
+         </file>
+         <file path="C:\Users\Justine\Documents\Fac\M1_INFO\S2\DevOps\TP\TP3\unsorted_list\src\main\java\datastruct\ListManipulator.java" name="ListManipulator.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="16" coveredmethods="0" methods="1" elements="7" classes="1" ncloc="11" statements="6" conditionals="0" coveredstatements="0"/>
+            <class name="ListManipulator">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="7" statements="6" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="5" count="0" type="method"/>
+            <line num="6" count="0" type="stmt"/>
+            <line num="8" count="0" type="stmt"/>
+            <line num="9" count="0" type="stmt"/>
+            <line num="10" count="0" type="stmt"/>
+            <line num="11" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+         </file>
+         <file path="C:\Users\Justine\Documents\Fac\M1_INFO\S2\DevOps\TP\TP3\unsorted_list\src\main\java\datastruct\MyUnsortedList.java" name="MyUnsortedList.java">
+            <metrics coveredelements="109" coveredconditionals="26" complexity="32" loc="172" coveredmethods="14" methods="14" elements="117" classes="2" ncloc="139" statements="73" conditionals="30" coveredstatements="69"/>
+            <class name="MyUnsortedList">
+               <metrics coveredelements="107" coveredconditionals="26" complexity="31" coveredmethods="13" methods="13" elements="115" statements="72" conditionals="30" coveredstatements="68"/>
+            </class>
+            <class name="MyUnsortedList.Link">
+               <metrics coveredelements="2" coveredconditionals="0" complexity="1" coveredmethods="1" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="1"/>
+            </class>
+            <line complexity="1" visibility="private" signature="Link(E)" num="11" count="100053" type="method"/>
+            <line num="12" count="100053" type="stmt"/>
+            <line complexity="1" visibility="private" signature="MyUnsortedList()" num="19" count="23" type="method"/>
+            <line num="20" count="23" type="stmt"/>
+            <line num="21" count="23" type="stmt"/>
+            <line complexity="1" visibility="public" signature="of(E) : MyUnsortedList&lt;E&gt;" num="24" count="23" type="method"/>
+            <line num="26" count="23" type="stmt"/>
+            <line complexity="1" visibility="public" signature="of(Iterable&lt;E&gt;) : MyUnsortedList&lt;E&gt;" num="29" count="23" type="method"/>
+            <line num="30" count="23" type="stmt"/>
+            <line num="31" count="23" type="stmt"/>
+            <line num="32" count="43" type="stmt"/>
+            <line num="34" count="23" type="stmt"/>
+            <line complexity="1" visibility="public" signature="isEmpty() : boolean" num="37" count="9" type="method"/>
+            <line num="39" count="9" type="stmt"/>
+            <line complexity="1" visibility="public" signature="size() : int" num="42" count="4" type="method"/>
+            <line num="44" count="4" type="stmt"/>
+            <line complexity="1" visibility="public" signature="prepend(E) : void" num="47" count="22" type="method"/>
+            <line num="49" count="22" type="stmt"/>
+            <line num="50" count="22" type="stmt"/>
+            <line num="51" count="22" type="stmt"/>
+            <line num="52" count="22" type="stmt"/>
+            <line complexity="2" visibility="public" signature="append(E) : void" num="55" count="100049" type="method"/>
+            <line num="57" count="100049" type="stmt"/>
+            <line falsecount="100048" truecount="1" num="57" type="cond"/>
+            <line num="58" count="1" type="stmt"/>
+            <line num="60" count="100048" type="stmt"/>
+            <line complexity="5" visibility="public" signature="insert(E,int) : void" num="63" count="100052" type="method"/>
+            <line num="65" count="100052" type="stmt"/>
+            <line falsecount="100049" truecount="3" num="65" type="cond"/>
+            <line num="66" count="3" type="stmt"/>
+            <line num="68" count="100049" type="stmt"/>
+            <line falsecount="100031" truecount="18" num="68" type="cond"/>
+            <line num="69" count="18" type="stmt"/>
+            <line num="70" count="18" type="stmt"/>
+            <line num="73" count="100031" type="stmt"/>
+            <line num="74" count="100031" type="stmt"/>
+            <line falsecount="100031" truecount="704882721" num="74" type="cond"/>
+            <line num="75" count="704882721" type="stmt"/>
+            <line num="78" count="100031" type="stmt"/>
+            <line num="79" count="100031" type="stmt"/>
+            <line num="80" count="100031" type="stmt"/>
+            <line num="81" count="100031" type="stmt"/>
+            <line num="82" count="100031" type="stmt"/>
+            <line complexity="2" visibility="public" signature="pop() : E" num="85" count="8" type="method"/>
+            <line num="87" count="8" type="stmt"/>
+            <line falsecount="7" truecount="1" num="87" type="cond"/>
+            <line num="88" count="1" type="stmt"/>
+            <line num="91" count="7" type="stmt"/>
+            <line num="92" count="7" type="stmt"/>
+            <line num="93" count="7" type="stmt"/>
+            <line num="95" count="7" type="stmt"/>
+            <line complexity="2" visibility="public" signature="popLast() : E" num="98" count="1" type="method"/>
+            <line num="100" count="1" type="stmt"/>
+            <line falsecount="0" truecount="1" num="100" type="cond"/>
+            <line num="101" count="1" type="stmt"/>
+            <line num="103" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="remove(int) : E" num="107" count="3" type="method"/>
+            <line num="109" count="3" type="stmt"/>
+            <line falsecount="2" truecount="1" num="109" type="cond"/>
+            <line num="110" count="1" type="stmt"/>
+            <line num="112" count="2" type="stmt"/>
+            <line falsecount="2" truecount="0" num="112" type="cond"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="116" count="2" type="stmt"/>
+            <line num="117" count="2" type="stmt"/>
+            <line falsecount="2" truecount="0" num="117" type="cond"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="121" count="2" type="stmt"/>
+            <line num="122" count="2" type="stmt"/>
+            <line num="124" count="2" type="stmt"/>
+            <line num="126" count="2" type="stmt"/>
+            <line complexity="6" visibility="public" signature="equals(Object) : boolean" num="130" count="3" type="method"/>
+            <line num="132" count="3" type="stmt"/>
+            <line falsecount="3" truecount="0" num="132" type="cond"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="136" count="3" type="stmt"/>
+            <line num="138" count="3" type="stmt"/>
+            <line falsecount="2" truecount="1" num="138" type="cond"/>
+            <line num="139" count="1" type="stmt"/>
+            <line num="142" count="2" type="stmt"/>
+            <line num="143" count="2" type="stmt"/>
+            <line num="144" count="2" type="stmt"/>
+            <line falsecount="1" truecount="4" num="144" type="cond"/>
+            <line num="145" count="4" type="stmt"/>
+            <line falsecount="3" truecount="1" num="145" type="cond"/>
+            <line num="146" count="1" type="stmt"/>
+            <line num="148" count="3" type="stmt"/>
+            <line num="149" count="3" type="stmt"/>
+            <line num="152" count="1" type="stmt"/>
+            <line complexity="3" visibility="public" signature="toString() : String" num="155" count="6" type="method"/>
+            <line num="157" count="6" type="stmt"/>
+            <line num="158" count="6" type="stmt"/>
+            <line num="159" count="6" type="stmt"/>
+            <line num="161" count="6" type="stmt"/>
+            <line num="162" count="6" type="stmt"/>
+            <line falsecount="6" truecount="13" num="162" type="cond"/>
+            <line num="163" count="13" type="stmt"/>
+            <line num="164" count="13" type="stmt"/>
+            <line num="165" count="13" type="stmt"/>
+            <line falsecount="5" truecount="8" num="165" type="cond"/>
+            <line num="166" count="8" type="stmt"/>
+            <line num="170" count="6" type="stmt"/>
+         </file>
+         <file path="C:\Users\Justine\Documents\Fac\M1_INFO\S2\DevOps\TP\TP3\unsorted_list\src\main\java\datastruct\UnsortedList.java" name="UnsortedList.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="0" loc="67" coveredmethods="0" methods="0" elements="0" classes="1" ncloc="11" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="UnsortedList">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="0" coveredmethods="0" methods="0" elements="0" statements="0" conditionals="0" coveredstatements="0"/>
+            </class>
+         </file>
+      </package>
+   </project>
+   <testproject name="unsorted-list 1.0-SNAPSHOT" timestamp="1739959124894">
+      <metrics coveredelements="84" complexity="19" loc="156" methods="18" classes="1" statements="64" packages="1" coveredconditionals="2" coveredmethods="18" elements="84" ncloc="124" files="1" conditionals="2" coveredstatements="64"/>
+      <package name="datastruct">
+         <metrics coveredelements="84" complexity="19" loc="156" methods="18" classes="1" statements="64" coveredconditionals="2" coveredmethods="18" elements="84" ncloc="124" files="1" conditionals="2" coveredstatements="64"/>
+         <file path="C:\Users\Justine\Documents\Fac\M1_INFO\S2\DevOps\TP\TP3\unsorted_list\src\test\java\datastruct\MyUnsortedListTest.java" name="MyUnsortedListTest.java">
+            <metrics coveredelements="84" coveredconditionals="2" complexity="19" loc="156" coveredmethods="18" methods="18" elements="84" classes="1" ncloc="124" statements="64" conditionals="2" coveredstatements="64"/>
+            <class name="MyUnsortedListTest">
+               <metrics coveredelements="84" complexity="19" methods="18" testruns="18" statements="64" coveredconditionals="2" coveredmethods="18" elements="84" testfailures="0" testduration="31.392999999999997" conditionals="2" coveredstatements="64" testpasses="18"/>
+            </class>
+            <line complexity="1" visibility="package" signature="testPopSurListeVide() : void" num="9" testsuccess="true" count="1" testduration="0.003" type="method"/>
+            <line num="11" count="1" type="stmt"/>
+            <line num="12" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testPopLastSurListeVide() : void" num="16" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="18" count="1" type="stmt"/>
+            <line num="19" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testRemoveAvecIndiceInvalide() : void" num="22" testsuccess="true" count="1" testduration="0.001" type="method"/>
+            <line num="24" count="1" type="stmt"/>
+            <line num="25" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testPrependEtAppend() : void" num="28" testsuccess="true" count="1" testduration="0.001" type="method"/>
+            <line num="30" count="1" type="stmt"/>
+            <line num="31" count="1" type="stmt"/>
+            <line num="32" count="1" type="stmt"/>
+            <line num="33" count="1" type="stmt"/>
+            <line num="35" count="1" type="stmt"/>
+            <line num="36" count="1" type="stmt"/>
+            <line num="37" count="1" type="stmt"/>
+            <line num="38" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testInsererAPositionValide() : void" num="42" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="44" count="1" type="stmt"/>
+            <line num="45" count="1" type="stmt"/>
+            <line num="46" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testInsererAPositionInvalide() : void" num="49" testsuccess="true" count="1" testduration="0.001" type="method"/>
+            <line num="51" count="1" type="stmt"/>
+            <line num="52" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testEgaliteAvecListesIdentiques() : void" num="56" testsuccess="true" count="1" testduration="0.001" type="method"/>
+            <line num="58" count="1" type="stmt"/>
+            <line num="59" count="1" type="stmt"/>
+            <line num="60" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testEgaliteAvecListesDifferent() : void" num="63" testsuccess="true" count="1" testduration="0.016" type="method"/>
+            <line num="65" count="1" type="stmt"/>
+            <line num="66" count="1" type="stmt"/>
+            <line num="67" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testEgaliteAvecListesDeTailleDifferent() : void" num="70" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="72" count="1" type="stmt"/>
+            <line num="73" count="1" type="stmt"/>
+            <line num="74" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testToString() : void" num="78" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="80" count="1" type="stmt"/>
+            <line num="81" count="1" type="stmt"/>
+            <line num="83" count="1" type="stmt"/>
+            <line num="84" count="1" type="stmt"/>
+            <line num="86" count="1" type="stmt"/>
+            <line num="87" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testListeAvecUnSeulElement() : void" num="90" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="92" count="1" type="stmt"/>
+            <line num="93" count="1" type="stmt"/>
+            <line num="94" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testListeAvecElementsIdentiques() : void" num="97" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="99" count="1" type="stmt"/>
+            <line num="100" count="1" type="stmt"/>
+            <line num="101" count="1" type="stmt"/>
+            <line num="102" count="1" type="stmt"/>
+            <line num="103" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testAppendNull() : void" num="107" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="109" count="1" type="stmt"/>
+            <line num="110" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testRemoveAUnePositionSpecifique() : void" num="114" testsuccess="true" count="1" testduration="0.003" type="method"/>
+            <line num="116" count="1" type="stmt"/>
+            <line num="117" count="1" type="stmt"/>
+            <line num="118" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testInsertAUnePositionInvalide() : void" num="121" testsuccess="true" count="1" testduration="0.004" type="method"/>
+            <line num="123" count="1" type="stmt"/>
+            <line num="124" count="1" type="stmt"/>
+            <line num="125" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testOrderAppend() : void" num="129" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="131" count="1" type="stmt"/>
+            <line num="132" count="1" type="stmt"/>
+            <line num="133" count="1" type="stmt"/>
+            <line num="134" count="1" type="stmt"/>
+            <line num="135" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testOrderPrepend() : void" num="138" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="140" count="1" type="stmt"/>
+            <line num="141" count="1" type="stmt"/>
+            <line num="142" count="1" type="stmt"/>
+            <line num="143" count="1" type="stmt"/>
+            <line num="144" count="1" type="stmt"/>
+            <line complexity="2" visibility="package" signature="testGrandeListe() : void" num="148" testsuccess="true" count="1" testduration="31.363" type="method"/>
+            <line num="150" count="1" type="stmt"/>
+            <line num="151" count="1" type="stmt"/>
+            <line falsecount="1" truecount="100000" num="151" type="cond"/>
+            <line num="152" count="100000" type="stmt"/>
+            <line num="154" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

@@ -1,0 +1,2 @@
+processClover (  {"children":["datastruct/"],"name":"Clover database mer. févr. 19 2025 10:58:07 CET","stats":{"AvgMethodComplexity":2.0588236,"Complexity":35,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":1,"TotalPercentageCovered":88.28125,"TotalStatements":81,"UncoveredElements":15},"title":"unsorted-list 1.0-SNAPSHOT"}
+ ); 
