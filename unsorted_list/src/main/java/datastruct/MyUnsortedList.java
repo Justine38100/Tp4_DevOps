@@ -54,9 +54,6 @@ public class MyUnsortedList<E> implements UnsortedList<E> {
 
     @Override
     public void append(E element) {
-        if (element == null) {
-            throw new NullPointerException("L'élément ne peut pas être null");
-        }
         insert(element, size);
     }
 
@@ -97,12 +94,8 @@ public class MyUnsortedList<E> implements UnsortedList<E> {
 
     @Override
     public E popLast() {
-        if (isEmpty()) {
-            throw new EmptyListException("La liste est vide, impossible de retirer le dernier élément.");
-        }
-        return remove(size - 1);  // Si la liste n'est pas vide, on supprime le dernier élément
+        return remove(size - 1);
     }
-    
 
     @Override
     public E remove(int pos) throws IndexOutOfBoundsException {
@@ -112,20 +105,17 @@ public class MyUnsortedList<E> implements UnsortedList<E> {
         if (pos == 0) {
             return pop();
         }
-    
+
         Link<E> prevLink = head;
         while (--pos > 0) {
             prevLink = prevLink.next;
         }
-    
+
         Link<E> removed = prevLink.next;
         prevLink.next = removed.next;
-    
-        size--;  // Décrémenter la taille de la liste après la suppression.
-    
+
         return removed.element;
     }
-    
 
     @Override
     public boolean equals(Object obj) {
